@@ -1,0 +1,25 @@
+{
+  "name": "@xrdev_38/commitlint-config",
+  "version": "0.0.0",
+  "description": "A shareable commitlint configuration for projects.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "scripts/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {},
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.1.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": ">= 17"
+  }
+}
