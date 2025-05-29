@@ -2,6 +2,10 @@
   "name": "@xrdev_38/postcss-config",
   "version": "1.0.0",
   "main": "postcss.config.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "postcss": "^8.0.0"
   }

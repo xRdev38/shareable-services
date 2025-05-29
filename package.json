@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
     "packages/*"
   ],

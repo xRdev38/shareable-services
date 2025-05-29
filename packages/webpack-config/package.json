@@ -2,6 +2,10 @@
   "name": "@xrdev_38/webpack-config",
   "version": "1.0.0",
   "main": "webpack.config.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "webpack": "^5.0.0",
     "webpack-cli": "^5.0.0"

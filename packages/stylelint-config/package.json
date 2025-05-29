@@ -2,6 +2,10 @@
   "name": "@xrdev_38/stylelint-config",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "stylelint": "^15.0.0",
     "stylelint-config-standard": "^34.0.0",

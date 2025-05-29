@@ -2,6 +2,10 @@
   "name": "@xrdev_38/commitizen-config",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "commitizen": "^4.0.0",
     "cz-conventional-changelog": "^3.3.0"

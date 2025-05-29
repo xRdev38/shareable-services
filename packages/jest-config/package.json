@@ -2,6 +2,10 @@
   "name": "@xrdev_38/jest-config",
   "version": "1.0.0",
   "main": "jest.config.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "jest": "^29.0.0",
     "@swc/jest": "^0.2.0"

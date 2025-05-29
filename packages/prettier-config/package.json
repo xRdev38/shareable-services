@@ -2,6 +2,10 @@
   "name": "@xrdev_38/prettier-config",
   "version": "1.0.0",
   "main": "prettier.config.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "prettier": "^3.0.0"
   }

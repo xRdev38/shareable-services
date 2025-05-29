@@ -2,6 +2,10 @@
   "name": "@xrdev_38/lint-staged-config",
   "version": "1.0.0",
   "main": "lint-staged.config.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "lint-staged": "^15.0.0",
     "prettier": "^3.0.0",
