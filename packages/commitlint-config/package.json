@@ -1,0 +1,9 @@
+{
+  "name": "@xrdev_38/commitlint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0"
+  }
+}
