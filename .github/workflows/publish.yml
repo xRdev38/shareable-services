@@ -10,16 +10,39 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          version: 8
-      - uses: actions/setup-node@v4
+          fetch-depth: 0 # important for Lerna tags/history!
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
-      - run: pnpm install
-      - run: npx lerna publish --yes --no-private
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Set up Git user
+        run: |
+          git config --global user.email "bot@github.com"
+          git config --global user.name "GitHub Actions Bot"
+
+      - name: Check for lockfile changes
+        run: |
+          git status
+          git diff pnpm-lock.yaml || true
+
+      - name: Lerna publish
+        run: npx lerna publish --yes --no-private --conventional-commits
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+

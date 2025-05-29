@@ -10,7 +10,9 @@
     "lint:ts": "eslint --cache --quiet --config ./packages/eslint-config-typescript/recommended.js --ext .ts --ignore-pattern incorrect.ts packages/eslint-config-typescript/tests/fixtures",
     "lint": "pnpm run lint:js && pnpm run lint:ts",
     "test:unit": "lerna run test",
-    "test": "pnpm run test:unit && pnpm run lint"
+    "test": "pnpm run test:unit && pnpm run lint",
+    "version:ci": "npx lerna version --yes --conventional-commits --message 'chore(release): publish'",
+    "publish:ci": "npx lerna publish from-package --yes --no-verify-access"
   },
   "dependencies": {},
   "devDependencies": {
