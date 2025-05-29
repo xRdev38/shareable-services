@@ -1,0 +1,9 @@
+{
+  "name": "@xrdev_38/webpack-config",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "peerDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
