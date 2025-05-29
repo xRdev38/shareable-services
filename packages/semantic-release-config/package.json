@@ -1,0 +1,8 @@
+{
+  "name": "@xrdev_38/semantic-release-config",
+  "version": "1.0.0",
+  "main": "release.config.js",
+  "peerDependencies": {
+    "semantic-release": "^23.0.0"
+  }
+}
