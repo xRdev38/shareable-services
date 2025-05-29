@@ -17,7 +17,7 @@ pnpm add -D prettier @xrdev_38/prettier-config
 
 Add to your `package.json`:
 ```json
-"prettier": "@xrdev_38/prettier-config"
+{ "prettier": "@xrdev_38/prettier-config"}
 ```
 Or create a `prettier.config.js`:
 ```js
