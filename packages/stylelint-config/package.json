@@ -1,0 +1,12 @@
+{
+  "name": "@xrdev_38/stylelint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-recommended-scss": "^13.0.0",
+    "stylelint-config-prettier-scss": "^0.0.8",
+    "stylelint-scss": "^5.0.0"
+  }
+}
