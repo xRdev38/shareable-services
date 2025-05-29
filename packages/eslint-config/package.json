@@ -1,0 +1,18 @@
+{
+  "name": "@xrdev_38/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jest": "^28.0.0",
+    "eslint-plugin-jsdoc": "^41.0.0",
+    "eslint-plugin-unicorn": "^49.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0.25.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0"
+  }
+}
